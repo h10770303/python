@@ -1,0 +1,12 @@
+
+循环语句：
+ 1. 答题上和java一样：
+      包括 while for  嵌套循环等
+      控制循环： break continue pass
+
+  2. 不同点：  比java更加灵活
+   2.1 可以与else 结合使用： 当循环结束时执行
+     while i>0:
+        print "this is i:",i
+        i-=1
+    else:print "end"

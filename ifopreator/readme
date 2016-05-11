@@ -1,0 +1,6 @@
+
+python中判断分支用if else进行
+1. if():
+    elif():
+    else:
+2. python 中没有 switch分支表达式， 当有多个时 可以使用 if 结合 and or 等进行使用，来满足switch

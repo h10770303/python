@@ -1,0 +1,9 @@
+
+time
+1. 使用time需要引入time 模块代码
+   import  time;  #引入模块
+    s_time=time.time()
+    print  s_time
+
+
+2. 有关日期的模块： time ,calendar datetime dateutil pylz 等

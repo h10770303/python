@@ -1,0 +1,5 @@
+
+乱码问题：
+ 在编写代码的时候，出现中文乱码，
+   1. file->setting-enconding 查看ide的编码集
+   2. 在编写代码的时候最开始（一定注意是最开头）用#coding=utf-8 或者#*-coding:utf-8-*
