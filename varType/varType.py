@@ -1,11 +1,11 @@
 #coding=utf-8
 
 # 8. 数据类型的转换
-# ints = 6
-# print  ints
+#ints = 6
+#print  ints
 # # print str(ints)
-# print long(ints)
-# print complex(ints)
+#print long(ints)
+#print complex(ints)
 
 # name="humingwei"
 # ints=ord(name)
