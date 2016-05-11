@@ -1,0 +1,32 @@
+
+函数：
+  1.基本语法：
+     与JavaScript的函数类似: def 开头
+        #定义函数
+        def addNumeber(a,b):
+            return a+b
+
+        #重写print方法
+        def println(str):
+            print "输出：",str
+            return
+
+  2. 参数类型：
+     2.1 必须参数
+         即函数内定义的参数 def functionname(a,b):
+     2.2 关键词参数
+           调用函数的使用关键词=值得形式： functionname(a=3,b=5)
+           参数之间可以没有和定义参数一样的顺序
+     2.3 缺省参数：
+         定义参数时，参数就默认给了初始值，调用函数时，如果不传则用默认的
+         def functionname(a,b=5):      functionname(a=3)
+     2.4 不定长参数
+         def functionname(a,*vartuble):  functionname(1,2,3,4,5,6)
+
+  3.匿名函数：
+       函数名 = lambda 关键词定义的函数，只有一句 类型与java中的三目运算符
+         lambda a,b,c:return
+         lambda a,b:a+b
+
+  4. return : 函数中如果没有return 则返回为None
+  5. 局部变量 全局变量 和java一致
